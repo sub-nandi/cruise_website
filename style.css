@@ -150,9 +150,19 @@ nav ul li a:hover, a.active{
     justify-content: space-between;
     margin-top: 10px;
 }
-.message{
-    display:none;
-    background-color: cadetblue;
+.alert
+{
+    background-color: slateblue;
+    height: 300px;
+    width: 80%;
     color: white;
-    float: left;
+    border: 2px solid gray;
+    border-radius: 20%;
+    display: none;
+    
+
 }
+    .alert h1{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
